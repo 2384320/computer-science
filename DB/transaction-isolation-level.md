@@ -55,17 +55,28 @@ O: 제어, X: 제어 불가능
 
 -> Non-Repeatable Read는 하나의 레코드의 값이 한 트랜잭션 내에서 다르게 조회될 수 있음을 얘기하는 것이고, Phantom Read는 하나의 트랜잭션 내에서 조회 쿼리 결과 레코드의 수가 달라질 수 있음을 얘기함.
 
-### with(nolock)과의 관계
+### WITH(NOLOCK)과의 관계
 
-- with(nolock)의 경우, 격리성 제한이 걸린 DB의 Read Uncommitted를 허용하여, 실시간으로 데이터를 확인할 때 주로 사용함.
-- 데드락이나 교착상태가 발생하지 않음. (with(nolock) 없이 수행할 경우, DB의 성능이 떨어지고, 데드락이 발생될 수 있음.)
+- WITH(NOLOCK)의 경우, 격리성 제한이 걸린 DB의 Read Uncommitted를 허용하여, 실시간으로 데이터를 확인할 때 주로 사용함.
+- 데드락이나 교착상태가 발생하지 않음. (WITH(NOLOCK) 없이 수행할 경우, DB의 성능이 떨어지고, 데드락이 발생될 수 있음.)
 - 롤백될 수 있는 데이터까지 읽기 때문에 일관성은 저하됨.
-- 기본적으로 MSSQL의 기본 격리수준이 Read Committed이므로, with(nolock)을 사용해야 함.
+- 기본적으로 MSSQL의 기본 격리수준이 Read Committed이므로, WITH(NOLOCK)을 사용해야 함.
 
-#### with(readuncommitted)
+#### WITH(READUNCOMMITTED)
 
-- 트랜잭션이 실행된 상태에서는 테이블에 잠금이 설정되는데, with(readuncommitted)를 사용하면 트랜잭션에 의한 잠금을 무시하고 접근할 수 있음.
-- with(nolock)과는 동일한 역할을 함.
+- 트랜잭션이 실행된 상태에서는 테이블에 잠금이 설정되는데, WITH(READUNCOMMITTED)를 사용하면 트랜잭션에 의한 잠금을 무시하고 접근할 수 있음.
+- WITH(NOLOCK)과는 동일한 역할을 함.
+
+### SET TRANSACTION ISOLATION LEVEL \[트랜잭션 격리 수준]
+
+`SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED`
+
+- 프로시저에서 사용할 수 있는 구문이며, 트랜잭션 격리 수준을 변경할 수 있음.
+
+#### SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED를 사용하는 이유
+
+- 보통은 DB에 상위 수준의 트랜잭션 격리를 설정해두지만, 무조건적인 Locking으로 동시에 수행되는 많은 트랜잭션들을 순서대로 처리하는 방식으로 구현되면 DB의 성능은 떨어지게 됨.
+- (뇌피셜)SET NOCOUNT ON과 같이 사용하는 걸 생각하면 개발 단계에서의 프로시저 실행을 위해 성능 향상을 위해 사용하는게 아닌가 싶음.
 
 ## 노트
 
@@ -76,3 +87,4 @@ O: 제어, X: 제어 불가능
 - https://blackas119.tistory.com/52
 - https://ryean.tistory.com/32
 - https://stackoverflow.com/questions/11043712/non-repeatable-read-vs-phantom-read
+- https://pyoungt.tistory.com/42
