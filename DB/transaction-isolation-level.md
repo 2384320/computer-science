@@ -80,7 +80,8 @@ O: 제어, X: 제어 불가능
 
 ## 노트
 
-- [MVCC와 Phantom Read에 대한 글도 있었는데](https://parkmuhyeun.github.io/woowacourse/2023-11-28-Repeatable-Read/), 이거도 나중에 정리하면 좋을 것 같다. 
+- [MVCC와 Phantom Read에 대한 글도 있었는데](https://parkmuhyeun.github.io/woowacourse/2023-11-28-Repeatable-Read/), 이거도 나중에 정리하면 좋을 것 같다.
+- [이 내용](https://suhwan.dev/2019/06/09/transaction-isolation-level-and-lock/)도 같이 정리하면 좋을 것 같다.
 
 ## 참고 자료
 
