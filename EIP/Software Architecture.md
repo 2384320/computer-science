@@ -116,9 +116,10 @@
 ### 인터프리터 패턴 (Interpreter Pattern)
 
 - 특정 언어로 작성된 프로그램 코드를 해석하는 컴포넌트를 설계할 때 사용되는 방법
-- 
 
 # 참고 자료
 
 - [소프트웨어 아키텍처](https://m.blog.naver.com/wook2124/222103002964)
 - [OOP 캡슐화 & 정보 은닉 개념 완벽 이해하기](https://inpa.tistory.com/entry/OOP-%EC%BA%A1%EC%8A%90%ED%99%94Encapsulation-%EC%A0%95%EB%B3%B4-%EC%9D%80%EB%8B%89%EC%9D%98-%EC%99%84%EB%B2%BD-%EC%9D%B4%ED%95%B4)
+- [아키텍처 패턴](https://m.blog.naver.com/wook2124/222103003379)
+- [\[번역\] 10가지 소프트웨어 아키텍처 패턴 요약](https://mingrammer.com/translation-10-common-software-architectural-patterns-in-a-nutshell/)
