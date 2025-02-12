@@ -4,6 +4,8 @@
 > 
 > *아키텍처 패턴은 전체 시스템의 구조를 설계하기 위한 참조 모델이며, 디자인 패턴보다 상위 수준의 설계에서 사용됨.
 
+GoF는 'Design Patterns of Reusable Object-Oriented Software'의 저자 사인방이며, 해당 책에 실린 23가지의 패턴을 GoF 디자인 패턴이라고 함.
+
 ## 생성 패턴 (Creational Pattern)
 
 - 추상 팩토리(Abstract Factory): 서로 연관, 의존하는 객체들은 그룹으로 생성해 추상적으로 표현
@@ -39,3 +41,4 @@
 # 참고 자료
 
 - [디자인 패턴](https://m.blog.naver.com/wook2124/222103410288)
+- [(GoF) Design Pattern 이란?](https://velog.io/@wooko5/GoF-Design-Pattern-%EC%9D%B4%EB%9E%80)
