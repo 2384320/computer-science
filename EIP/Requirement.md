@@ -66,6 +66,16 @@
 - 모델 검증
 - 인수 테스트(알파 테스트, 베타 테스트)
 
+**인터페이스 요구사항 검증 주요 항목**
+
+- 기능성(Functionality)
+- 완전성(Completeness)
+- 일관성(Consistency)
+- 명확성(Unambiguity)
+- 검증 가능성(Verifiability)
+- 추적 가능성(Traceability)
+- 변경 용이성(Easily Changeable)
+
 # 참고 자료
 
 - [요구사항 정의](https://m.blog.naver.com/wook2124/222103001064)
