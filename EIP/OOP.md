@@ -93,9 +93,10 @@
 
 > 객체 모델링 → 동적 모델링 → 기능 모델링
 
-- 객체 모델링(Object Modeling): 
-- 동적 모델링(Dynamic Modeling): 
-- 기능 모델링(Functional Modeling): 
+- **객체 모델링(Object Modeling)**: 시스템에서 요구하는 객체를 찾고 객체들 간의 관계를 정의하여 객체 다이어그램(Object Diagram)으로 표현
+  - 정보 모델링이라고도 함.
+- **동적 모델링(Dynamic Modeling)**: 상태 다이어그램(State Diagram)을 이용하여 시간의 흐름에 따른 객체들 간의 제어 흐름, 동작 순서 등의 동적인 행위를 표현
+- **기능 모델링(Functional Modeling)**: 자료 흐름도(DFD; Data Flow Diagram)을 이용하여 프로세스들의 자료 흐름을 중심으로 처리하는 과정을 표현
 
 ## 객체지향 설계 원칙 (SOLID)
 
@@ -120,3 +121,4 @@
 - [\[정보처리기사/필기\] 1. 소프트웨어 설계](https://velog.io/@stringbuckwheat/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EA%B8%B0%EC%82%AC-%ED%95%84%EA%B8%B0-1%EA%B3%BC%EB%AA%A9-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EC%84%A4%EA%B3%84-%EC%9A%94%EC%95%BD#1-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EC%83%9D%EB%AA%85-%EC%A3%BC%EA%B8%B0)
 - [18. 객체지향(Object - Oriented)](https://velog.io/@alpaka206/18.-%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5Object-Oriented)
 - [SOLID, 좋은 객체지향 설계의 5가지 원칙](https://velog.io/@pp8817/SOLID-%EC%A2%8B%EC%9D%80-%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5-%EC%84%A4%EA%B3%84%EC%9D%98-5%EA%B0%80%EC%A7%80-%EC%9B%90%EC%B9%99)
+- [객체지향 분석 및 설계](https://velog.io/@clay/%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5-%EB%B6%84%EC%84%9D-%EB%B0%8F-%EC%84%A4%EA%B3%84)
