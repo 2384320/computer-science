@@ -68,6 +68,18 @@
 
 - 하나의 메시지에 대해 각각의 객체(클래스)가 가지고 있는 고유한 방법(특성)으로 응답할 수 있는 능력
 
+## 객체지향 연관성 (Relationship)
+
+- 둘 이상의 객체가 상호참조하는 관계
+
+**종류**
+
+- **is member of(연관화, Association)**: 2개 이상의 객체가 상호 관련되어 있음을 의미
+- **is instance of(분류화, Classification)**: 동일한 형의 특성을 갖는 객체들을 모아 구성하는 것
+- **is part of(집단화, Aggregation)**: 관련 있는 객체들을 묶어 하나의 상위 객체를 구성하는 것
+- **is a (일반화, Generalization)**: 공동적인 성질들로 추상화한 상위 객체를 구성하는 것
+- **is a(특수화, 상세화, Specification)**: 상위 객체를 구체화하여 하위 객체를 구성하는 것
+
 # 참고 자료
 
 - [객체지향(Object-Oriented)](https://m.blog.naver.com/wook2124/222103003848)
@@ -75,3 +87,5 @@
 - [객체지향프로그래밍이란? 3요소|5원칙|그리고 추상화](https://okayoon.tistory.com/entry/%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%B4%EB%9E%80-3%EC%9A%94%EC%86%8C-5%EC%9B%90%EC%B9%99-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%B6%94%EC%83%81%ED%99%94)
 - [\[정보처리기사\] 객체지향의 구성요소와 개념 (객체/클래스/캡슐화/상속성/다형성)](https://liveyourit.tistory.com/204)
 - [16. 객체지향 기법에서 클래스들 사이의 '부분-전체(part-whole)' 관계 또는 '부분(is-a-part-of)'의 관계로 설명되는 연관성을 나타내는 용어는?](https://itpmw.tistory.com/997)
+- [\[정보처리기사/필기\] 1. 소프트웨어 설계](https://velog.io/@stringbuckwheat/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EA%B8%B0%EC%82%AC-%ED%95%84%EA%B8%B0-1%EA%B3%BC%EB%AA%A9-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EC%84%A4%EA%B3%84-%EC%9A%94%EC%95%BD#1-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EC%83%9D%EB%AA%85-%EC%A3%BC%EA%B8%B0)
+- [18. 객체지향(Object - Oriented)](https://velog.io/@alpaka206/18.-%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5Object-Oriented)
