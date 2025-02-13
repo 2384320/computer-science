@@ -1,4 +1,4 @@
-# 개발 기술 환경
+# Development Environment
 
 ## OS (Operating System)
 
