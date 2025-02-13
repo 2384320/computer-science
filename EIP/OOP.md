@@ -80,6 +80,36 @@
 - **is a (일반화, Generalization)**: 공동적인 성질들로 추상화한 상위 객체를 구성하는 것
 - **is a(특수화, 상세화, Specification)**: 상위 객체를 구체화하여 하위 객체를 구성하는 것
 
+## 객체지향 분석 방법론
+
+> 객체지향 분석(OOA; Object Oriented Analysis) | 사용자의 요구사항을 분석하여 요구된 문제와 관련된 모든 클래스(객체), 이와 연관된 속성과 연산, 그들 간의 관계 등을 정의하여 모델링하는 작업
+
+- 럼바우(Rumbaugh) 방법론: 소프트웨어 구성 요소를 그래픽 표기법을 이용하여 모델링하는 객체지향 분석 기법
+- 부치(Booch) 방법론: 
+- 코드(Code)와 요든(Yourdon) 방법론: 
+- 워프스(Wirfs)-브록(Brock) 방법론: 
+
+### 럼바우의 분석 절차
+
+> 객체 모델링 → 동적 모델링 → 기능 모델링
+
+- 객체 모델링(Object Modeling): 
+- 동적 모델링(Dynamic Modeling): 
+- 기능 모델링(Functional Modeling): 
+
+## 객체지향 설계 원칙 (SOLID)
+
+- **단일 책임 원칙(SRP; Single Responsibility Principle)**: 하나의 클래스는 하나의 책임만 가져야 함.
+  - 클래스를 변경하는 이유는 단 하나여야 하며, 변경이 있을 때 파급 효과가 적어야 함.
+- **개방 폐쇄 원칙(OCP; Open-Closed Principle)**: 소프트웨어 요손는 확장에는 열려 있으나 변경에는 닫혀 있어야 함.
+  - 기존의 코드를 변경하지 않고, 기능을 추가 및 수정할 수 있어야 함. (상속 및 추상화를 활용하여 추가 및 수정함.)
+- **리스코프 치환 원칙(LSP; Liskov Substitution Principle)**: 하위 타입 객체는 상위 타입 객체에서 가능한 행위를 수행할 수 있어야 함.
+  - 상위 타입 객체를 하위 타입 객체로 대체하여도 정상적으로 동작해야 함.
+- **인터페이스 분리 원칙(ISP; Interface Segregation Principle)**: 클라이언트는 자신이 사용하는 메서드에만 의존해야 함.
+  - 인터페이스는 해당 인터페이스를 사용하는 클라이언트를 기준으로 잘게 분리되어야 함. (인터페이스에 변경이 발생해도 다른 인터페이스에 영향을 받지 않도록 하는 것이 ISP의 목적)
+- **의존 역전 원칙(DIP; Dependency Inversion Principle)**: 의존 관계를 맺을 때, 변하기 쉬운 구체적인 것보다는 변하기 어려운 추상적인 것에 의존해야 함.
+  - 구현 클래스에 의존하지 말고, 인터페이스에 의존해야 함.
+
 # 참고 자료
 
 - [객체지향(Object-Oriented)](https://m.blog.naver.com/wook2124/222103003848)
@@ -89,3 +119,4 @@
 - [16. 객체지향 기법에서 클래스들 사이의 '부분-전체(part-whole)' 관계 또는 '부분(is-a-part-of)'의 관계로 설명되는 연관성을 나타내는 용어는?](https://itpmw.tistory.com/997)
 - [\[정보처리기사/필기\] 1. 소프트웨어 설계](https://velog.io/@stringbuckwheat/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EA%B8%B0%EC%82%AC-%ED%95%84%EA%B8%B0-1%EA%B3%BC%EB%AA%A9-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EC%84%A4%EA%B3%84-%EC%9A%94%EC%95%BD#1-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EC%83%9D%EB%AA%85-%EC%A3%BC%EA%B8%B0)
 - [18. 객체지향(Object - Oriented)](https://velog.io/@alpaka206/18.-%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5Object-Oriented)
+- [SOLID, 좋은 객체지향 설계의 5가지 원칙](https://velog.io/@pp8817/SOLID-%EC%A2%8B%EC%9D%80-%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5-%EC%84%A4%EA%B3%84%EC%9D%98-5%EA%B0%80%EC%A7%80-%EC%9B%90%EC%B9%99)
