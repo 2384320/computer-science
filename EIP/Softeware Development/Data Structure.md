@@ -59,11 +59,11 @@
 - **형제 노드(Brother Node, Sibling)**: 동일한 부모를 갖는 노드들
 - **트리의 디그리**: 노드들의 디그리 중에 가장 많은 수
 
-#### 운행법
+#### 트리 순회방법 (Traversal)
 
-- **Preorder**: root → left → right
-- **Inorder**: left → root → right
-- **Postorder**: left → right → root
+- **Pre-Order Traversal**: root → left → right
+- **In-Order Traversal**: left → root → right
+- **Post-Order Traversal**: left → right → root
 
 ### 그래프 (Graph)
 
@@ -77,3 +77,4 @@
 - [\[정보처리기사/필기\] 2. 소프트웨어 개발](https://velog.io/@stringbuckwheat/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EA%B8%B0%EC%82%AC-%ED%95%84%EA%B8%B0-2%EA%B3%BC%EB%AA%A9-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B0%9C%EB%B0%9C-%EC%9A%94%EC%95%BD)
 - [자료구조](https://m.blog.naver.com/wook2124/222103414502)
 - [\[정보처리산업기사\] 63강 자료 구조](https://velog.io/@donghoim/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EC%82%B0%EC%97%85%EA%B8%B0%EC%82%AC-63%EA%B0%95-%EC%9E%90%EB%A3%8C-%EA%B5%AC%EC%A1%B0)
+- [2과목 추가 정리: 수제비](https://m.blog.naver.com/wook2124/222108754108)
