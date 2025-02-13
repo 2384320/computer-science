@@ -107,26 +107,6 @@
 - 개발 자원을 요구사항에 할당하기 전, 명세서가 정확하고 완전하게 작성되었는지 검토하는 활동
 - 요구사항 검토 계획 수립 → 검토 및 오류 수정 → 베이스 라인 설정
 
-**요구사항 확인 기법**
-
-- 요구사항 검토(Requirements Review): 요구사항 명세서의 오류 확인 및 표준 준수 여부 등의 결함 여부를 검토 담당자들이 수작업으로 분석
-  - **동료 검토(Peer Review)**: 요구사항 명세서 작성자가 내용을 직접 설명하고 동료들이 이를 들으면서 결함을 발견하는 검토 방법
-  - **워크 스루(Walk Through)**: 검토 회의 전에 요구사항 명세서를 미리 배포하여 사전 검토한 후, 짧은 검토 회의를 통해 결함을 발견하는 검토 방법
-  - **인스펙션(Inspection)**: 요구사항 명세서 작성자를 제외한 다른 검토 전문가들이 확인하면서 결함을 발견하는 검토 방법
-- 프로토타이핑(Prototyping)
-- 모델 검증
-- 인수 테스트(알파 테스트, 베타 테스트)
-
-**인터페이스 요구사항 검증 주요 항목**
-
-- 기능성(Functionality)
-- 완전성(Completeness)
-- 일관성(Consistency)
-- 명확성(Unambiguity)
-- 검증 가능성(Verifiability)
-- 추적 가능성(Traceability)
-- 변경 용이성(Easily Changeable)
-
 # 참고 자료
 
 - [요구사항 정의](https://m.blog.naver.com/wook2124/222103001064)
@@ -134,6 +114,5 @@
 - [\[정보처리기사/필기\] 1장. 요구사항 확인(2)](https://velog.io/@jiwon3378/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EA%B8%B0%EC%82%AC%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EC%84%A4%EA%B3%84-1%EC%9E%A5.-%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD-%ED%99%95%EC%9D%B82)
 - [1-소프트웨어 설계. 1. 요구 사항 확인. 2) 요구 사항 분석](https://velog.io/@kjh03160/1-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EC%84%A4%EA%B3%84.-1.-%EC%9A%94%EA%B5%AC-%EC%82%AC%ED%95%AD-%ED%99%95%EC%9D%B8.-2-%EC%9A%94%EA%B5%AC-%EC%82%AC%ED%95%AD-%EB%B6%84%EC%84%9D)
 - [(소프트웨어공학) FTR 정형 기술 검토 개념 설명](https://kkh0977.tistory.com/589)
-- [인터페이스 요구사항 검증](https://m.blog.naver.com/wook2124/222103410491)
 - [\[정보처리기사/필기\] 1. 소프트웨어 설계](https://velog.io/@stringbuckwheat/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EA%B8%B0%EC%82%AC-%ED%95%84%EA%B8%B0-1%EA%B3%BC%EB%AA%A9-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EC%84%A4%EA%B3%84-%EC%9A%94%EC%95%BD#1-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EC%83%9D%EB%AA%85-%EC%A3%BC%EA%B8%B0)
 - [\[정보처리기사 필기\] 1과목.소프트웨어 설계 핵심 요약 - 요구사항 분석 및 설계 도구](https://blog.naver.com/gisafirst/222686734081)
